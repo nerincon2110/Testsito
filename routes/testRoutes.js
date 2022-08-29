@@ -20,10 +20,4 @@ const testsitos = require('../controllers/testControllers');
     //
     router.get('/login/google/callback', testsitos.testGoogleCallback);
 
-    //
-    //router.get('/login/github', testsitos.testGithub);
-    
-    //
-    //router.get('/login/github/callback', testsitos.testGithubCallback);
-
     module.exports = router;
